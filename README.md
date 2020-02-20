@@ -14,3 +14,5 @@ Here is a description of all the available files:
 * `ps-helpers.R`: R script with custom functions used in `ps-matching.R`
 * `benchmark-models.rData`: `felm` objects containing estimated models corresponding to columns 1-4 of table 2 from Chimeli & Soares (2017); these models are estimated using `replicating-results.R` and are stored so they can be compared to matched-DD models in `ps-matching.R`
 * `paper-aps-andre-luis-menegatti.pdf`: my comments on the results, in Portuguese
+
+**Note:** This was my first time doing econometrics in R. Thus, the code could obviously DRYer and more elegant. On the other hand, I think that its current form will be more useful to begginers than a less repetitive version.
